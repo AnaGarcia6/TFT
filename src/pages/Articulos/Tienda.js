@@ -1,11 +1,161 @@
 import React, {Component} from 'react';
 import {CardColumns, Card} from 'react-bootstrap';
+import loza from './img/vela-concha.png';
+import heart from './img/heart.png';
 
 class Tienda extends Component{
 
     render(){  //este metodo render el que se encarga de mostrar lavista del componenete y siempre tiene que llevar un return
         return(//la etiqueta React.Fragmentes para poder añadir por ejemplo 2 h2 , sino solo te deja poner 1 y se recomienda meterlo dentro de un DIV
-            <div className="col-12">
+               <section className="mt-5 col-12 mx-auto">
+                <h2 className="text-center tittle_cami">Velas</h2>
+                <p className="text-center">velas personalizadas</p>
+               <CardColumns className="columnas">
+                 <a href="#">
+                   <Card className="text-center mt-2">
+                       <Card.Body>
+                           <span className="badge new">Top venta</span>
+                           <a href=""><span className="badge_heart"><img src={heart} width="10" alt="10"/></span></a>
+                         <Card.Img className="img_product" src={loza}/>
+                         <Card.Footer className="text-center text-dark">
+                         <Card.Text className="small text-dark font-weight-light">
+                             Descripcion del articulo 
+                         </Card.Text>
+                           <small>51.99€</small>
+                         </Card.Footer>
+                       </Card.Body>
+                   </Card>
+                 </a>
+                 <a href="#">
+                   <Card className="text-center mt-2">
+                       <Card.Body>
+                           <span className="badge new">Top venta</span>
+                           <a href=""><span className="badge_heart"><img src={heart} width="10" alt="10"/></span></a>
+                         <Card.Img className="img_product" src={loza}/>
+                         <Card.Footer className="text-center text-dark">
+                         <Card.Text className="small text-dark font-weight-light">
+                             Descripcion del articulo 
+                         </Card.Text>
+                           <small>51.99€</small>
+                         </Card.Footer>
+                    
+                       </Card.Body>
+                   </Card>
+                 </a>
+                 <a href="#">
+                   <Card className="text-center mt-2">
+                       <Card.Body>
+                           <span className="badge new">Top venta</span>
+                           <a href=""><span className="badge_heart"><img src={heart} width="10" alt="10"/></span></a>
+                         <Card.Img className="img_product" src={loza}/>
+                         <Card.Footer className="text-center text-dark">
+                         <Card.Text className="small text-dark font-weight-light">
+                             Descripcion del articulo 
+                         </Card.Text>
+                           <small>51.99€</small>
+                         </Card.Footer>
+                       </Card.Body>
+                   </Card>
+                 </a>
+                 <a href="#">
+                   <Card className="text-center mt-2">
+                       <Card.Body>
+                         <span className="badge new">Top venta</span>
+                         <a href=""><span className="badge_heart"><img src={heart} width="10" alt="10"/></span></a>
+                       <Card.Img className="img_product" src={loza}/>
+                       <Card.Footer className="text-center text-dark">
+                       <Card.Text className="small text-dark font-weight-light">
+                           Descripcion del articulo 
+                       </Card.Text>
+                         <small>51.99€</small>
+                       </Card.Footer>
+                       </Card.Body>
+                   </Card>  
+                 </a>   
+                 <a href="#">
+                   <Card className="text-center mt-2">
+                       <Card.Body>
+                         <span className="badge new">Top venta</span>
+                         <a href=""><span className="badge_heart"><img src={heart} width="10" alt="10"/></span></a>
+                       <Card.Img className="img_product" src={loza}/>
+                       <Card.Footer className="text-center text-dark">
+                       <Card.Text className="small text-dark font-weight-light">
+                           Descripcion del articulo 
+                       </Card.Text>
+                         <small>51.99€</small>
+                       </Card.Footer>
+                       </Card.Body>
+                   </Card>
+                 </a>
+            {/*      <Card text="warning" className="text-center p-1">
+                     <blockquote className="blockquote mb-1 card-body">
+                     <p>
+                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere
+                         erat a ante.
+                     </p>
+                     <footer className="blockquote-footer">
+                         <small className="text-muted">
+                         Someone famous in <cite title="Source Title">Source Title</cite>
+                         </small>
+                     </footer>
+                     </blockquote>
+                 </Card> */}
+                 <a href="#">
+                   <Card className="text-center mt-2">
+                       <Card.Body>
+                         <span className="badge new">Top venta</span>
+                         <a href=""><span className="badge_heart"><img src={heart} width="10" alt="10"/></span></a>
+                       <Card.Img className="img_product" src={loza}/>
+                       <Card.Footer className="text-center text-dark">
+                       <Card.Text className="small text-dark font-weight-light">
+                           Descripcion del articulo 
+                       </Card.Text>
+                         <small>51.99€</small>
+                       </Card.Footer>
+                       </Card.Body>
+                   </Card>
+                 </a>
+                 <a href="#">
+                   <Card className="text-center mt-2">
+                       <Card.Body>
+                         <span className="badge new">Top venta</span>
+                         <a href=""><span className="badge_heart"><img src={heart} width="10" alt="10"/></span></a>
+                       <Card.Img className="img_product" src={loza}/>
+                       <Card.Footer className="text-center text-dark">
+                       <Card.Text className="small text-dark font-weight-light">
+                           Descripcion del articulo 
+                       </Card.Text>
+                         <small>51.99€</small>
+                       </Card.Footer>
+                       </Card.Body>
+                   </Card>
+                 </a>
+                 <a href="#">
+                   <Card className="text-center mt-2">
+                       <Card.Body>
+                         <span className="badge new">Top venta</span>
+                         <a href=""><span className="badge_heart"><img src={heart} width="10" alt="10"/></span></a>
+                       <Card.Img className="img_product"src={loza}/>
+                       <Card.Footer className="text-center text-dark">
+                       <Card.Text className="small text-dark font-weight-light">
+                           Descripcion del articulo 
+                       </Card.Text>
+                         <small>51.99€</small>
+                       </Card.Footer>
+                       </Card.Body>
+                   </Card>
+                 </a>
+               </CardColumns>
+             </section>
+        );
+    }
+
+}
+
+export default Tienda;
+
+/*
+           <div className="col-12">
                 <br/>
                 <CardColumns>
                     <Card>
@@ -100,9 +250,4 @@ class Tienda extends Component{
                 </Card>
                 </CardColumns>
             </div>
-        );
-    }
-
-}
-
-export default Tienda;
+*/
